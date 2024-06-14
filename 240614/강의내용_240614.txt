@@ -1,0 +1,7 @@
+1.태그 / h태그
+2.a / p 태그
+3.내.외부 스타일시트
+4.웹폰트관련 / 텍스트관련
+5.경로!!!!
+> 절대 / 상대
+https://github.com/Divjason/sbsacademy_web
