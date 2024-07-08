@@ -1,0 +1,109 @@
+1.Web1
+
+1) HTML5
+- 태그 > video / audio / table / ul, ol / form
+- 공간분할태그 (*block / inline / inline-block)
+- semantic
+
+2) CSS3
+- selector > 13개
+- property > 단위 / display / position / background / font
+
+3) deploy
+- Google Firebase
+
+2.Web2
+
+*Git / Git-hub!!!
+> GIT => 형상기억관리 툴 / 버전관리 툴
+(*시간, 공간 구애 받지않고 내가 작업한 작업물 어딘가에 저장해놓고, 필요할 때마다 찾아와서 재작업할 수 있도록 도와주는 관리 시스템)
+> 웹.앱 프로젝트 => 혼자서 작업하는 일은 없음!!!
+> 복수 개발자가 협업 => 소스코드 공유 및 병합 매우 효율적임!!!
+
+> 1차 html, css, js / 2차 html, css, js => 20240708 
+
+> 20240708 
+
+> 서점 git 책 => "지옥에서 온" 
+
+- git-bash 설치
+
+- cmd > git -v : 현재 설치된 git 버전 확인
+
+- git config --list : 현재 로컬컴퓨터 git 소유주 정보 조회
+
+- git-hub name : Divjason
+
+- git-hub email : sejinpark@tcocs.com
+
+- git-hub repository = 폴더 생성
+(*고양이 아이콘 클릭 > create respository)
+
+- repository address :
+https://github.com/Divjason/sbsnewclass-web02.git
+
+- cmd 관리자모드 > git config --global user.name "Divjason"
+
+- cmd 관리자모드 > git config --global user.email "sejinpark@tcocs.com"
+
+- cmd 관리자모드 > git config --list : 현재 로컬컴퓨터 git 소유주 정보 조회
+
+- cmd 관리자모드 > git config --global --unset user.name => git 정보 삭제 시
+
+- 바탕화면 > root 폴더 > 코드로 열기
+
+- vscode > 터미널 > git-bash
+
+- git 초기화 : git init
+
+- git & git-hub 연결 : git remote add origin https://github.com/Divjason/sbsnewclass-web02.git
+
+- staging area 담기 : git add .
+
+- commit message 작성 : git commit -m "240708"
+
+- git-hub 원격저장소 : git push origin master
+
+
+1) 로컬 컴퓨터 : 개발자 작업하고 있는 본인의 컴퓨터
+
+- staging area - 
+- commit -
+
+2) git 버전관리 툴
+
+3) git-hub 원격저장소 
+
+
+
+1) CSS3 심화
+- animation / transition / transform
+
+transition : 어떤 요소 (*이미지 혹은 도형 등)를 변환시키는데 필요한 전환효과에 대한 속성을 제어할 수 있는 스타일 속성
+> 소요시간 / 가.감속 / 일정시간 이후에 실행
+> 변환이 일어나기 전 속성에 적용!!!
+1) transition-duration : 특정 변형 혹은 이벤트 반응요소를 어느 기간 동안 실행
+2) transition-delay : 특정 변형요소를 일정 시간 이후부터 실행
+3) transition-property : 특정 변형요소 중 어떤 속성값에 전환효과를 적용
+4) transition-timing-function : 특정 변형요소를 적용하고자 할 때 가.감속 적용
+- ease-in : 도입 속도 천천히 종결 속도 빨라짐
+- ease-out : 도입 속도 빠르고 종결 속도 천천히
+- ease-in-out : 도입 & 종결 속도 천천히 / 중간 속도 빠르게
+- ease : 도입 조금 천천히 / 중간 매우 빠르게 / 종결 매우 천천히
+- linear : 감.감속 x => 정속
+
+https://cubic-bezier.com/
+
+=> transition : 
+
+transform : 어떤 요소의 물리적인 하드웨어를 변환시키기 위한 스타일 속성
+> 크기 / x, y, z축으로 이동 / 회전 / x, y, z 기울임
+
+크로스브라우징 체크하지 x > 버그!!!!
+css 스타일 속성 적용 => 모든 브라우저 혹은 운영체제 정상작동한다는 보장x
+
+2) responsive
+- flex
+- grid
+
+3) media-query
