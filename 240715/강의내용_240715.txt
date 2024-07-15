@@ -1,0 +1,57 @@
+Flex-Layout
+- float / table 레이아웃 정렬하던 시절 > 비효율적인 작업
+- css3 문법 => 레이아웃 정렬 보다 효율적으로 방법
+1) flex
+2) grid
+
+- 엄청 쉽게 레이아웃 정렬
+- responsive-web/app 엄청 효과
+
+flex 기본문법 > 예제 4개 (*파이널 반응형)
+
+grid 기본문법 > 예제 2~3개
+
+본격적인 반응형!!!
+
+flex => flexable (*유연한)
+
+1) 부모
+- display : block / inline / inline-block => flex
+- 수평정렬(*가로) / 수직정렬(*세로)
+- justify-contents: flex-start / center / flex-end
+> space-between : 왼쪽 끝 & 오른쪽 끝
+> space-around
+> space-evenly
+
+- align-items: flex-start / center / flex-end
+- align-content: flex-start / center / flex-end
+- flex-direction: row / column
+- flex-wrap: no-wrap / wrap
+
+2) 자녀
+- flex-grow : 비율로 나눠서 자식요소의 너비를 할당
+- flex-shrink : 부모요소의 너비를 줄여나갈 때, 비율
+- flex-basis : px / 
+- flex (*축약형)
+- order : 위치순서를 굉장히 효율적으로 교체할 수 있는 기능
+
+3) 중심축
+- default : 가로
+
+4) 교차축
+
+*부모요소에 display : flex를 적용했을 때, 만약 자식요소에 높이값이 적용되어 있지 않다면 기본적으로 자식요소의 높이가 부모요소의 높이값을 상속!!!
+
+
+flex-direction & flex-wrap => flex-flow
+flex: flex-grow (*필수 값) flex-shrink flex-basis (*옵셔널한 값)
+
+flex: 1 1 auto
+flex: 1
+flex: 1 1
+
+
+
+
+
+
