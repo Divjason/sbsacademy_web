@@ -1,0 +1,46 @@
+CSS : 
+- nesting
+
+*변수설정
+*연산작업
+
+> 기능을 업그레이드 스타일시트
+
+SASS => "S"CSS
+Sassy Cascading Style Sheet
+Sassy Girl
+
+> 웹 브라우저
+- html, css, js
+
+js => TS
+React.js
+
+=> 번역 작업 => Compiling
+=> Complier 프로그램
+
+1.SCSS 역시 여러개의 모듈파일 생성 후 연결 가능!
+- @import "경로 설정"
+
+2.SCSS 역시 변수 설정 => CSS 직관적으로 변수설정!
+- $변수명 => $변수명
+
+3.SCSS는 map-get 내장 함수 => 카테고리별로 변수설정
+
+4.@at-root : 위에 설정되어있는 부모 선택자 밖에서도 동일한 스타일 적용 가능
+
+5.mix-in : 어떤 동일한 패턴의 스타일 적용하고자 할 때, 1개의 스타일을 미리 저장해놓고, 필요할 때마다 가져다가 사용할 수 있는 기능
+
+=> 매개변수를 전달 함수!!!
+
+6.extend
+
+7.for
+
+8.if (반응형 // )
+
+=> 싸이월드 
+
+
+
+
